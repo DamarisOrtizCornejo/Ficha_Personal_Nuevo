@@ -2,7 +2,7 @@
 {% load static %}
 
 {% block columns %}
-    <tr>
+    <tr table-danger text-center>
         <th scope="col" style="width: 5%;">ID</th>
         <th scope="col" style="width: 5%;">Nombre</th>
         <th scope="col" style="width: 20%;">Fecha</th>
@@ -13,7 +13,7 @@
 {% endblock %}
 
 {% block rows %}
-  <tr>
+  <tr class="table-warning text-center">
       <td>1</td>
       <td>Damaris Ortiz</td>
       <td>05/07/2022</td>
@@ -24,7 +24,7 @@
         <a href="{% url 'eliminarSueldo' %}">❌</a>
       </td>
   </tr>
-    <tr>
+    <tr class="table-warning text-center">
       <td>2</td>
       <td>Erick Bohorquez</td>
       <td>19/01/2022</td>
